@@ -2,19 +2,9 @@
   "questions": [
     {
       "name": "$DEPENDS_ON$",
-      "type": "list",
+      "type": "confirm",
       "message": "Do you want to use TypeScript?",
-      "choices": [
-        {
-          "name": "I want to keep using JavaScript",
-          "value": "null"
-        },
-        {
-          "name": "I want to use TypeScript instead",
-          "value": "react-ts"
-        }
-      ],
-      "default": "null"
+      "default": false
     },
     {
       "name": "$DEPENDS_ON$",

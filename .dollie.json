@@ -1,7 +1,7 @@
 {
   "questions": [
     {
-      "name": "$DEPENDS_ON:react-ts",
+      "name": "$DEPENDS_ON:react-ts$",
       "type": "confirm",
       "message": "Do you want to use TypeScript?",
       "default": false

@@ -1,7 +1,7 @@
 {
   "questions": [
     {
-      "name": "$DEPENDS_ON:react-ts#devtest$",
+      "name": "$DEPENDS_ON:react-ts",
       "type": "confirm",
       "message": "Do you want to use TypeScript?",
       "default": false
@@ -17,15 +17,15 @@
         },
         {
           "name": "Sass/Scss",
-          "value": "react-sass#devtest"
+          "value": "react-sass"
         },
         {
           "name": "Less",
-          "value": "react-less#devtest"
+          "value": "react-less"
         },
         {
           "name": "Stylus",
-          "value": "react-stylus#devtest"
+          "value": "react-stylus"
         }
       ],
       "default": "null"

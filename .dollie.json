@@ -1,7 +1,7 @@
 {
   "questions": [
     {
-      "name": "$DEPENDS_ON:react-ts$",
+      "name": "$DEPENDS_ON:react-ts#devtest$",
       "type": "confirm",
       "message": "Do you want to use TypeScript?",
       "default": false
@@ -17,15 +17,15 @@
         },
         {
           "name": "Sass/Scss",
-          "value": "react-sass"
+          "value": "react-sass#devtest"
         },
         {
           "name": "Less",
-          "value": "react-less"
+          "value": "react-less#devtest"
         },
         {
           "name": "Stylus",
-          "value": "react-stylus"
+          "value": "react-stylus#devtest"
         }
       ],
       "default": "null"
@@ -41,11 +41,11 @@
         },
         {
           "name": "Redux & React Redux",
-          "value": "react-redux"
+          "value": "react-redux#devtest"
         },
         {
           "name": "Dva.js",
-          "value": "react-dva"
+          "value": "react-dva#devtest"
         }
       ],
       "default": "null"
